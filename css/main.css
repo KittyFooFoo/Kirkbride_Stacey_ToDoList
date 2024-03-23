@@ -1,9 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgb(240, 148, 220);
+    background-image: none;
     /*these properties will be inherited by children elements*/
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(240, 110, 138);
 }
 
 main {
@@ -26,29 +27,29 @@ section {
 }
 
 section > h2 {
-    color: gray;
+    color: rgba(90, 179, 201, 0.856);
     padding: 4px 8px;
 }
 
 section:first-of-type {
-    border: 4px solid gray;
+    border: 4px solid rgba(90, 179, 201, 0.856);
 }
 
 /*the id has a higher specificity, so it beats out the section selector*/
 #inprogress {
-    border: 4px solid red;
+    border: 4px solid rgb(250, 0, 187);
 }
 
 #inprogress h2 {
-    color: red;
+    color: rgb(250, 0, 187);
 }
 
 #done {
-   border: 4px solid green;
+   border: 4px solid rgb(170, 97, 238);
 }
 
 #done h2 {
-    color: green;
+    color: rgb(170, 97, 238);
 }
 
 ul {
@@ -62,13 +63,13 @@ ul li {
 }
 
 .todo li:nth-child(odd) {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .inprogress li:nth-child(odd) {
-    background-color: rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .done li:nth-child(odd) {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
