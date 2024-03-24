@@ -1,15 +1,17 @@
 body {
-    background-color: rgb(240, 148, 220);
-    background-image: none;
+    background-color: rgb(245, 210, 237);
+    background-image: url(https://img.wattpad.com/userbg/YunXingze.58514.jpg);
+    background-repeat: repeat-y;
+    background-size: 300px;
     /*these properties will be inherited by children elements*/
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(240, 110, 138);
+    color: rgb(233, 222, 209);
 }
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap;
 }
 
