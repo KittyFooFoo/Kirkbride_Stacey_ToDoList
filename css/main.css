@@ -6,7 +6,7 @@ body {
     /*these properties will be inherited by children elements*/
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(233, 222, 209);
+    color: rgb(188, 9, 233);
 }
 
 main {
@@ -21,7 +21,8 @@ header >h1 {
 }
 
 input[type="checkbox"]:checked + span::after {
-    content: "✅";
+    content: "♥";
+    color: pink;
     margin-left: 5px;
 }
 
