@@ -20,6 +20,11 @@ header >h1 {
     padding: 10px;
 }
 
+input[type="checkbox"]:checked + span::after {
+    content: "✅";
+    margin-left: 5px;
+}
+
 /*applies to all sections*/
 section {
     width: 400px;
